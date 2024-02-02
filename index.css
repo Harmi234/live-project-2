@@ -1,0 +1,266 @@
+#{
+  font-size: 30px;
+  height: 30px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+#main {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-style: ridge;
+  /* border-color: black; */
+  height: 60px;
+ 
+}
+#a1{
+  text-decoration: none;
+  color:black;
+  font-size: 20px;
+}
+#box1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  align-items: center;
+ 
+}
+#box2 {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  align-items: center;
+}
+/* 2box */
+#perent-box {
+  display: flex;
+  /* justify-content: center; */
+  padding: 20px;
+  border-style: ridge;
+  /* border-color: black; */
+  height: 30px;
+  color: whitesmoke;
+  background-color: #9b51e0;
+  gap: 200px;
+  
+}
+
+.cafe-search-field {
+  font-weight: 200;
+  font-family: "Oxanium", Sans-serif;
+  height: 40px;
+  width: 590px;
+  display: flex;
+  justify-content: center;
+  /* margin: 10px; */
+  border-radius: 10px;
+}
+#item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1px;
+  padding: 20px;
+}
+#item2 {
+}
+/* menu bar ////////*/
+#site-mein-content {
+  display: flex;
+  
+  /* justify-content: space-between; */
+}
+#menu-catalog-menu {
+  height: 300px;
+  width: 200px;
+  /* border: 1px solid black; */
+  /* display: flex; */
+  justify-content: flex-start;
+  margin: 20px;
+  padding: 40px;
+  font-size: 16px;
+}
+#img {
+  width: 700px;
+  height: 200px;
+}
+#new-section {
+  margin: 50px;
+  position: relative;
+  color: white;
+}
+h1 {
+  font-size: 40px;
+}
+button {
+  margin: 20px;
+  color: white;
+  height: 40px;
+  width: 150px;
+  background-color: #dabc6c;
+}
+/* ///elements//// */
+
+#alementor-widjet-conteinar {
+  height: 300px;
+  width: 650px;
+  /* border: 2px solid black; */
+  display: flex;
+}
+#cafe-wrap-content{
+display: flex;
+justify-content: center;
+gap: 10px;
+}
+#center-box{
+  height: 60px;
+  width: 330px;
+  margin: 20px;
+}
+#color{
+  font-size: 30px;
+  
+}
+#main-box{
+  display: flex;
+  justify-content: center;
+  margin: 60px;
+}
+#product{
+  height: 300px;
+  width: 300px;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+.img{
+  height: 300px;
+  width: 250px;
+  border-radius: 20px;
+}
+#fonted{
+  color: #dabc6c;
+}
+.new bar{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ /* margin: 40px; */
+}
+/* .perent{
+  height: 350px;
+  width: 250px;
+  
+  gap: 100px;
+  
+  
+}
+#product1{
+  display: flex;
+  gap: 30px;
+  justify-content: space-around;
+} */
+#main-perent-div{
+  
+  grid-template-columns: repeat(5,);
+  justify-content: space-around;
+}
+
+#card-box{
+  display: grid;
+  margin: 40px;
+  grid-template-columns: repeat(5,1fr);
+}
+#full-box{
+  height: 300px;
+  width: auto;
+  /* top: 0;
+  left: 0;
+  position: absolute; */
+  border: 1px solid black;
+  background-color: #7A7A7A;
+}
+#main-full-box{
+  padding: 30px;
+}
+
+.h4{
+  margin: 45px;
+  display: flex;
+  justify-content: center;
+  font-size: 45px;
+  color: white;
+}
+.h5{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  color: white;
+} 
+.elementor-button-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 35px;
+  padding: 10px;
+  color: white;
+}
+.cafe-testimonial-content{
+  font-size: 30px;
+  color: white;justify-content: center;
+  /* align-items: center; */
+  display: flex;
+ margin: 70px;
+}
+.cafe-testimonial-author{
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+}
+#full-size{
+  /* display: flex; */
+  /* justify-content: center; */
+  height: 300px;
+  width: 2000px;
+  /* top: 0;
+  left: 0;
+  position: absolute; */
+  border: 1px solid black;
+  background-color: #7A7A7A;
+}
+#colomons-woomen{
+  display: flex;
+  justify-content:space-between ;
+  align-items: center;
+  height: 70px;
+  width: 290px;
+  /* border: 1px solid black; */
+}
+#icons-teg{
+  font-size: 30px;
+  color:darkgray;
+}
+#main-docyument{
+  display: flex;
+  gap: 50px;
+  margin: 100px;
+}
+#comen-style{
+  display: flex;
+  justify-content: center;
+}
+#kepitol{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+#kepitol-1{
+  color: white;
+  display: flex;
+  text-decoration: none;
+  font-size: 20px;
+}
